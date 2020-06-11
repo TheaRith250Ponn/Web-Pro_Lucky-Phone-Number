@@ -1,5 +1,3 @@
-//Thearith Ponn | 5988250 | Section: 1
-
 // list of lucky numbers
 var numbers = [15, 51, 14, 41, 55, 39, 23];
 
