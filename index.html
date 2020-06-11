@@ -1,0 +1,71 @@
+<!--Thearith Ponn | 5988250 | Section: 1-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky Phone Number</title>
+    <!-- link to bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <p></p>
+                <div class="card card-secondary">
+                    <div class="card-header">
+                        <div class="card-title" style="text-align:center; font-size:30px">Lucky Phone Number (Education Category)</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <!--<div id="root"></div>-->
+                                <h4>Lucky last 2 digit Number</h4>
+                                <p>Below are numbers in Edcuation category:</p>
+                                <ol id="myOl"></ol>
+                            </div>
+                            <!-- /.col-md-6 -->
+                            <div class="col-md-6">
+                                <!-- select any numbers that you don't want them  -->
+                                <h4>Unwanted Number</h4>
+                                <p>You can select any numbers that you don't want them in yours:</p>
+                                    <input type="checkbox" name="cb" value="1" id="cb1"> 1<br>
+                                    <input type="checkbox" name="cb" value="2" id="cb2"> 2<br>
+                                    <input type="checkbox" name="cb" value="3" id="cb3"> 3<br>
+                                    <input type="checkbox" name="cb" value="4" id="cb4"> 4<br>
+                                    <input type="checkbox" name="cb" value="5" id="cb5"> 5<br>
+                                    <input type="checkbox" name="cb" value="6" id="cb6"> 6<br>
+                                    <input type="checkbox" name="cb" value="7" id="cb7"> 7<br>
+                                    <input type="checkbox" name="cb" value="8" id="cb8"> 8<br>
+                                    <input type="checkbox" name="cb" value="9" id="cb9"> 9<br>
+                                    <input type="checkbox" name="cb" value="0" id="cb0"> 0<br>
+                            </div>
+                            <!-- /.col-md-6 -->
+                        </div>
+                        <!-- /.row -->
+                        <p></p>
+                        <p></p>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <!-- button to click and generate number -->
+                                <button onclick="getNumber()"> Generate Lucky Number </button>
+                                <p style="color:green;font-size: 24px;" id="phone"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.container-fluid -->
+
+    <!-- main script -->
+    <script src="js/script.js"></script>
+</body>
+</html>
